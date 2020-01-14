@@ -5,8 +5,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-class CryptUtils {
-    private CryptUtils() {
+class CryptTextUtils {
+    private CryptTextUtils() {
         throw new IllegalStateException("Utility class");
     }
     static final String RUS_ALPHABET = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
